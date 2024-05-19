@@ -13,7 +13,7 @@ import numpy as np
 import tensorflow as tf
 
 # Load model
-model = tf.keras.models.load_model('model.h5')
+model = tf.keras.models.load_model('try.h5')
 
 # Function to preprocess the uploaded image
 def preprocess_image(image):
