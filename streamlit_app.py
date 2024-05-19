@@ -39,7 +39,7 @@ if uploaded_file is not None:
     st.image(image, caption='Gambar yang diunggah', use_column_width=True)
 
     prediction = predict(image)
-    class_names = ["Jalan Normal", "Jalan Berlubang"]
+    class_names = ["Jalan berlubang", "Jalan normal"]
     predicted_class = class_names[np.argmax(prediction)]
     st.write(f"Prediksi: {predicted_class}")
 
