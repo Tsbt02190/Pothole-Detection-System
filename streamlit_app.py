@@ -10,6 +10,7 @@ Original file is located at
 import streamlit as st
 from PIL import Image
 import numpy as np
+pip install tensorflow
 import tensorflow as tf
 
 # Load model
