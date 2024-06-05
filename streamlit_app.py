@@ -62,8 +62,6 @@ if option == "Unggah gambar":
 
         with col2:
             if st.button("Tidak"):
-                correction = st.text_input("Apa seharusnya prediksi yang benar?")
-                if correction:
                     st.write("Terima kasih, kami akan memperbaiki model kami berdasarkan feedback Anda!")
 
 elif option == "Masukkan URL gambar":
@@ -88,8 +86,6 @@ elif option == "Masukkan URL gambar":
 
             with col2:
                 if st.button("Tidak"):
-                    correction = st.text_input("Apa seharusnya prediksi yang benar?")
-                    if correction:
                         st.write("Terima kasih, kami akan memperbaiki model kami berdasarkan feedback Anda!")
 
         except Exception as e:
