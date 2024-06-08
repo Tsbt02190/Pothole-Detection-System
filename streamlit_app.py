@@ -8,7 +8,7 @@ import tensorflow as tf
 # Fungsi untuk memuat model
 @st.cache(allow_output_mutation=True)
 def load_model():
-    model_path = "fourth/fourlayerDG.h5"
+    model_path = "fourth/fourlayerDG2.h5"
     model = tf.keras.models.load_model(model_path)
     return model
 
